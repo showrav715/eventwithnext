@@ -16,7 +16,7 @@ function Event({ title, date, location, image, id }) {
         </p>
         <p className="font-bold">Date : {date}</p>
       </div>
-      <Link legacyBehavior href={`event/${id}`}>
+      <Link legacyBehavior href={`/event/${id}`}>
         <a className="text-indigo-500 inline-flex items-center mt-3">
           Learn More
           <svg
